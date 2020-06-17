@@ -7,18 +7,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="{{ url_for('static', filename='form.js') }}"></script>
     <title>Title</title>
+
+    <script>
+        function myFunction() {
+            // document.getElementById("demo").style.color = "red";
+            alert("dupa!");
+        }
+        function httpGet(theUrl)
+        {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", '/', false ); // false for synchronous request
+            xmlHttp.send( null );
+            window.location.reload(false); 
+            return xmlHttp.responseText;
+        }
+    </script>
 </head>
 <body>
     <div class="grid-container">
         <div class="grid-item item-1">
-            item 1 Header
+            item 1 {{title}}
         </div>
         <div class="grid-item item-2">
             item 2 Nav
         </div>
         <div class="grid-item item-3">
-            item 3 main
+            <button onclick="httpGet()">httpGet</button>
             {{ time }}
+            
         </div>
         <div class="grid-item item-4">
             item 4 ads
