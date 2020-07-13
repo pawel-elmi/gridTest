@@ -33,7 +33,7 @@ python-engineio==3.12.1
 python-slugify==1.2.6
 python-socketio==4.5.1
 pytz==2020.1
-PyYAML==3.13
+PyYAML==5.1
 requests==2.23.0
 six==1.14.0
 soupsieve==2.0
