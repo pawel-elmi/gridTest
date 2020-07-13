@@ -46,7 +46,8 @@ epoch = now
 
 templateData = {
 'title': 'HELLO!',
-'time': epoch
+'time': epoch,
+'eloszka': 666
 }
 
 @app.route('/', methods=['GET','POST']) 
@@ -57,9 +58,9 @@ def foo():
         postFunction()
     if request.method == 'GET':
         print(templateData)
-        return render_template('index.html', **templateData)
+        return render_template('table.html', **templateData)
 
-    return render_template('index.html', **templateData)
+    return render_template('table.html', **templateData)
 
 
 # @app.route('')
