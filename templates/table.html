@@ -16,41 +16,40 @@
    <tr height=20 style='mso-height-source:userset;height:15.0pt'>
     <td height=20 class=xl874988 width=47 style='height:15.0pt;width:35pt'>Nr Toru</td>
     <td colspan=3 class=xl874988 width=243 style='border-right:1.0pt solid black; width:183pt'>Oznaczenie wejścia pomiarowego</td>
-    <td colspan=4 class=xl1194988 width=324 style='border-right:1.0pt solid black; border-left:none;width:244pt'>T8<span style='mso-spacerun:yes'>  
-    </span>temperatura odpływu</td>
+    <td colspan=4 class=xl1194988 width=324 style='border-right:1.0pt solid black; border-left:none;width:244pt'>{{OZN_WE_POM}}<span style='mso-spacerun:yes'>  
+    </span>{{OZN_WE_POM_DESC}}</td>
    </tr>
    <tr height=20 style='mso-height-source:userset;height:15.0pt'>
-    <td rowspan=12 height=288 class=xl1224988 width=47 style='border-bottom:1.0pt solid black; height:216.0pt;border-top:none;width:35pt'>{{NrToru}}</td>
+    <td rowspan=12 height=288 class=xl1224988 width=47 style='border-bottom:1.0pt solid black; height:216.0pt;border-top:none;width:35pt'>{{NR_TORU}}</td>
     <td colspan=3 class=xl1164988 width=243 style='border-right:1.0pt solid black; border-left:none;width:183pt'>Rodzaj czujnika</td>
-    <td colspan=4 class=xl1114988 width=324 style='border-right:1.0pt solid black; border-left:none;width:244pt'>Pt100</td>
+    <td colspan=4 class=xl1114988 width=324 style='border-right:1.0pt solid black; border-left:none;width:244pt'>{{RODZ_CZUJ}}</td>
    </tr>
    <tr height=20 style='height:15.0pt'>
     <td colspan=3 height=20 class=xl1084988 width=243 style='border-right:1.0pt solid black; height:15.0pt;border-left:none;width:183pt'>Typ<span style='mso-spacerun:yes'> </span></td>
-    <td colspan=4 class=xl1114988 width=324 style='border-right:1.0pt solid black; border-left:none;width:244pt'>TOPE412</td>
+    <td colspan=4 class=xl1114988 width=324 style='border-right:1.0pt solid black; border-left:none;width:244pt'>{{TYP_CZUJ}}</td>
    </tr>
    <tr height=20 style='height:15.0pt'>
     <td colspan=3 height=20 class=xl1084988 width=243 style='border-right:1.0pt solid black; height:15.0pt;border-left:none;width:183pt'>Producent</td>
-    <td colspan=4 class=xl1114988 width=324 style='border-right:1.0pt solid black; border-left:none;width:244pt'>{{eloszka}}</td>
+    <td colspan=4 class=xl1114988 width=324 style='border-right:1.0pt solid black; border-left:none;width:244pt'>{{PROD}}</td>
    </tr>
    <tr height=20 style='mso-height-source:userset;height:15.0pt'>
     <td colspan=3 height=20 class=xl1084988 width=243 style='border-right:1.0pt solid black;
     height:15.0pt;border-left:none;width:183pt'>Zakres pomiarowy</td>
     <td colspan=4 class=xl1114988 width=324 style='border-right:1.0pt solid black;
-    border-left:none;width:244pt'>0…150&ordm;C</td>
+    border-left:none;width:244pt'>{{ZAKR_POM}}°C</td>
    </tr>
    <tr height=20 style='mso-height-source:userset;height:15.0pt'>
     <td colspan=3 height=20 class=xl1084988 width=243 style='border-right:1.0pt solid black;
     height:15.0pt;border-left:none;width:183pt'>Wymagana dokładność</td>
     <td colspan=4 class=xl1114988 width=324 style='border-right:1.0pt solid black;
-    border-left:none;width:244pt'>±1&ordm;C</td>
+    border-left:none;width:244pt'>{{WYM_DOK}}°C</td>
    </tr>
    <tr height=19 style='mso-height-source:userset;height:14.25pt'>
     <td colspan=3 rowspan=2 height=39 class=xl964988 width=243 style='border-right:
     1.0pt solid black;border-bottom:1.0pt solid black;height:29.25pt;width:183pt'>Informacje
     o wzorcu</td>
     <td colspan=4 rowspan=2 class=xl1024988 width=324 style='border-right:1.0pt solid black;
-    border-bottom:1.0pt solid black;width:244pt'>Piec kalibracyjny DBC 150 TS, nr
-    fabr. 10349</td>
+    border-bottom:1.0pt solid black;width:244pt'>{{WZ_INFO}}</td>
    </tr>
    <tr height=20 style='mso-height-source:userset;height:15.0pt'>
    </tr>
@@ -65,8 +64,7 @@
     <td class=xl934988 width=81 style='border-top:none;width:61pt'>&nbsp;</td>
    </tr>
    <tr height=69 style='height:51.75pt'>
-    <td height=69 class=xl814988 width=81 style='height:51.75pt;border-left:none;
-    width:61pt'>Wartość zadana przed korektą</td>
+    <td height=69 class=xl814988 width=81 style='height:51.75pt;border-left:none; width:61pt'>Wartość zadana przed korektą</td>
     <td class=xl814988 width=81 style='width:61pt'>Wartość odczytana przed korektą</td>
     <td class=xl864988 width=81 style='border-top:none;width:61pt'>Odchyłka przed korektą</td>
     <td class=xl864988 width=81 style='border-top:none;width:61pt'>Korekta</td>
@@ -75,17 +73,34 @@
     <td class=xl904988 width=81 style='border-top:none;width:61pt'>Odchyłka po korekcie</td>
    </tr>
    <tr height=20 style='height:15.0pt'>
-    <td height=20 class=xl824988 width=81 style='height:15.0pt;border-left:none; width:61pt'>{{WZPRK_1}}</td>
-    <td class=xl824988 width=81 style='width:61pt'>{{WOPK_1}}°C</td>
-    <td class=xl854988 width=81 style='border-top:none;width:61pt'>- 0,08°C</td>
-    <td class=xl844988 width=81 style='border-top:none;width:61pt'>-</td>
-    <td class=xl834988 width=81 style='width:61pt'>-</td>
-    <td class=xl834988 width=81 style='width:61pt'>-</td>
-    <td class=xl914988 width=81 style='width:61pt'>-</td>
+    <td height=20 class=xl824988 width=81 style='height:15.0pt;border-left:none; width:61pt'>{{WZPRK_1}}°C</td>
+    <td class=xl824988 width=81 style='width:61pt'>{{WOPRK_1}}°C</td>
+    <td class=xl854988 width=81 style='border-top:none;width:61pt'>{{OPRK_1}}°C</td>
+    <td class=xl844988 width=81 style='border-top:none;width:61pt'>{{KOR_1}}°C</td>
+    <td class=xl834988 width=81 style='width:61pt'>{{WZPK_1}}°C</td>
+    <td class=xl834988 width=81 style='width:61pt'>{{WOPK_1}}°C</td>
+    <td class=xl914988 width=81 style='width:61pt'>{{OPK_1}}°C</td>
    </tr>
    <tr height=20 style='height:15.0pt'>
-    <td height=20 class=xl824988 width=81 style='height:15.0pt;border-left:none;
-    width:61pt'>121,55°C</td>
+    <td height=20 class=xl824988 width=81 style='height:15.0pt;border-left:none; width:61pt'>{{WZPRK_2}}°C</td>
+    <td class=xl824988 width=81 style='width:61pt'>{{WOPRK_2}}°C</td>
+    <td class=xl854988 width=81 style='border-top:none;width:61pt'>{{OPRK_2}}°C</td>
+    <td class=xl844988 width=81 style='border-top:none;width:61pt'>{{KOR_2}}°C</td>
+    <td class=xl834988 width=81 style='width:61pt'>{{WZPK_2}}°C</td>
+    <td class=xl834988 width=81 style='width:61pt'>{{WOPK_2}}°C</td>
+    <td class=xl914988 width=81 style='width:61pt'>{{OPK_2}}°C</td>
+   </tr>
+   <tr height=20 style='height:15.0pt'>
+    <td height=20 class=xl824988 width=81 style='height:15.0pt;border-left:none; width:61pt'>{{WZPRK_3}}°C</td>
+    <td class=xl824988 width=81 style='width:61pt'>{{WOPRK_3}}°C</td>
+    <td class=xl854988 width=81 style='border-top:none;width:61pt'>{{OPRK_3}}°C</td>
+    <td class=xl844988 width=81 style='border-top:none;width:61pt'>{{KOR_3}}°C</td>
+    <td class=xl834988 width=81 style='width:61pt'>{{WZPK_3}}°C</td>
+    <td class=xl834988 width=81 style='width:61pt'>{{WOPK_3}}°C</td>
+    <td class=xl914988 width=81 style='width:61pt'>{{OPK_3}}°C</td>
+   </tr>
+   <!-- <tr height=20 style='height:15.0pt'>
+    <td height=20 class=xl824988 width=81 style='height:15.0pt;border-left:none; width:61pt'>121,55°C</td>
     <td class=xl824988 width=81 style='width:61pt'>121,6°C</td>
     <td class=xl854988 width=81 style='border-top:none;width:61pt'>- 0,05°C</td>
     <td class=xl854988 width=81 style='border-top:none;width:61pt'>- 0,05°C</td>
@@ -94,15 +109,14 @@
     <td class=xl924988 width=81 style='border-top:none;width:61pt'>- 0,05°C</td>
    </tr>
    <tr height=20 style='height:15.0pt'>
-    <td height=20 class=xl824988 width=81 style='height:15.0pt;border-left:none;
-    width:61pt'>140,62°C</td>
+    <td height=20 class=xl824988 width=81 style='height:15.0pt;border-left:none; width:61pt'>140,62°C</td>
     <td class=xl824988 width=81 style='width:61pt'>140,6°C</td>
     <td class=xl854988 width=81 style='border-top:none;width:61pt'>- 0,02°C</td>
     <td class=xl844988 width=81 style='border-top:none;width:61pt'>-</td>
     <td class=xl834988 width=81 style='width:61pt'>-</td>
     <td class=xl834988 width=81 style='width:61pt'>-</td>
     <td class=xl914988 width=81 style='width:61pt'>-</td>
-   </tr>
+   </tr> -->
    <tr height=20 style='mso-height-source:userset;height:15.0pt'>
     <td colspan=4 height=20 class=xl864988 width=290 style='border-right:1.0pt solid black;
     height:15.0pt;width:218pt'>Wnioski z wzorcowania</td>
