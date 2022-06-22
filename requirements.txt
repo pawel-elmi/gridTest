@@ -23,7 +23,7 @@ MarkupSafe==1.1.1
 marshmallow==3.6.1
 marshmallow-sqlalchemy==0.23.1
 meza==0.41.1
-numpy==1.18.2
+numpy==1.22.0
 pigpio==1.46
 pkg-resources==0.0.0
 pygogo==0.12.0
